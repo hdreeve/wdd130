@@ -1,23 +1,29 @@
+:root {
+    --primary-color: darkblue;
+    --text-color: white;
+    --standard-padding: 1rem;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--text-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 aside {
     width: 20rem;
-    margin: 1rem;
+    margin: var(--standard-padding);
     border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
+    padding: var(--standard-padding);
     background-color: #eee;
     color: #333;
     text-align: center;
