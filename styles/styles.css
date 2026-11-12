@@ -81,3 +81,7 @@ footer {
     background-color: #eee;
     color: #333;
 }
+
+main ul {
+    padding-left: 2rem;
+}
